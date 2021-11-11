@@ -1,0 +1,150 @@
+.process-section {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 10rem 3rem;
+  background-image: /* linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url('/images/jumbotron.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.process-title {
+  font-size: 2.7rem;
+  text-align: center;
+  color: var(--blue-gray);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: relative;
+  width: 54%;
+}
+.process-title::before {
+  content: '';
+  position: absolute;
+  background-color: var(--yellow);
+  height: 3px;
+  width: 65%;
+  left: 0;
+  top: 50%;
+  transform: translate(-110%, -50%);
+}
+.process-title::after {
+  content: '';
+  position: absolute;
+  background-color: var(--yellow);
+  height: 3px;
+  width: 65%;
+  right: 0;
+  top: 50%;
+  transform: translate(110%, -50%);
+}
+
+.process-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1350px;
+  margin-top: 6rem;
+}
+.process-block {
+  width: 30%;
+  text-align: center;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  transition: transform ease 300ms;
+}
+.process-block:hover {
+  transform: scale(1.03);
+}
+.process-block:hover h3 {
+  color: var(--orange);
+}
+.process-block img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.process-block h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--army-green);
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: color ease 300ms;
+}
+.process-block p {
+  font-size: 1.1rem;
+  color: var(--blue-gray);
+  line-height: 2rem;
+  padding: 0 1rem 1rem;
+}
+
+#process1::before {
+  content: '1';
+  background-color: var(--army-green);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f5f5f5;
+  z-index: 5;
+}
+#process2::before {
+  content: '2';
+  background-color: var(--army-green);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f5f5f5;
+  z-index: 5;
+}
+#process3::before {
+  content: '3';
+  background-color: var(--army-green);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f5f5f5;
+  z-index: 5;
+}
+
+@media only screen and (min-width: 1900px) {
+  html {
+    font-size: 19px;
+  }
+  .process-section {
+    padding: 6rem 35rem;
+  }
+}

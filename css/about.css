@@ -72,3 +72,15 @@
   line-height: 2.3rem;
   margin-top: 1rem;
 }
+
+@media only screen and (min-width: 1900px) {
+  html {
+    font-size: 19px;
+  }
+  .about-section {
+    padding: 6rem 25rem;
+  }
+  .about-container {
+    margin-top: 9rem;
+  }
+}
