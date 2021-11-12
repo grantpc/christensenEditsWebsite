@@ -3,24 +3,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 10rem;
+  padding: 6rem 15rem;
 }
 
 .faq-title {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   text-align: center;
   color: var(--blue-gray);
   text-transform: uppercase;
   letter-spacing: 4px;
   position: relative;
-  width: 54%;
+  width: 40%;
 }
 .faq-title::before {
   content: '';
   position: absolute;
   background-color: var(--yellow);
   height: 3px;
-  width: 45%;
+  width: 70%;
   left: 0;
   top: 50%;
   transform: translate(-110%, -50%);
@@ -30,7 +30,7 @@
   position: absolute;
   background-color: var(--yellow);
   height: 3px;
-  width: 45%;
+  width: 70%;
   right: 0;
   top: 50%;
   transform: translate(110%, -50%);
@@ -48,6 +48,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.7rem;
+  line-height: 3rem;
 }
 .faq-container p {
   font-size: 1.2rem;

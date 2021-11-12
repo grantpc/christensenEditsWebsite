@@ -7,20 +7,20 @@
 }
 
 .services-title {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   text-align: center;
   color: var(--blue-gray);
   text-transform: uppercase;
   letter-spacing: 4px;
   position: relative;
-  width: 54%;
+  width: 40%;
 }
 .services-title::before {
   content: '';
   position: absolute;
   background-color: var(--yellow);
   height: 3px;
-  width: 65%;
+  width: 70%;
   left: 0;
   top: 50%;
   transform: translate(-110%, -50%);
@@ -30,7 +30,7 @@
   position: absolute;
   background-color: var(--yellow);
   height: 3px;
-  width: 65%;
+  width: 70%;
   right: 0;
   top: 50%;
   transform: translate(110%, -50%);
