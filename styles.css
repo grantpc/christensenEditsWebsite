@@ -117,6 +117,16 @@ header nav {
   /* object-fit: cover; */
 }
 
+.avatar-picture-mobile {
+  display: none;
+}
+
+.avatar-picture-mobile img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
 .welcome-text-box {
   min-width: 48%;
 }
@@ -469,5 +479,86 @@ footer {
   }
   footer {
     height: 30vh;
+    padding: 4rem 10rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  /* WELCOME SECTION */
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+  }
+  .avatar-picture {
+    display: none;
+  }
+  .avatar-picture-mobile {
+    display: block;
+    margin-top: 1.5rem;
+  }
+  .avatar-picture-mobile img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 40%;
+  }
+  /* SERVICES OFFERED SECTION */
+  .services-offered-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .service-card {
+    width: 100%;
+    margin-bottom: 3.5rem;
+  }
+  /* TESTIMONIAL SECTION */
+  .testimonials-section {
+    padding: 4rem 2rem;
+  }
+  /* CONTACT SECTION */
+  .contact-section {
+    padding: 4rem 1rem;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr;
+  }
+  .image-block {
+    width: auto;
+    max-height: 400px;
+  }
+  .image-block img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  /* FOOTER */
+  footer {
+    padding: 2rem 01rem;
+    height: 30vh;
+    justify-content: center;
+  }
+  .social-links {
+    width: 90%;
+  }
+  .social-links h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .footer-links {
+    display: none;
   }
 }

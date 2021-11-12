@@ -42,6 +42,7 @@
   text-align: center;
   width: 100%;
   margin-top: 3rem;
+  max-width: 1000px;
 }
 .faq-container h2 {
   color: var(--army-green);
@@ -63,9 +64,24 @@
     font-size: 19px;
   }
   .faq-section {
-    padding: 6rem 35rem;
+    padding: 6rem 25rem;
   }
   .faq-container {
     margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  html {
+    font-size: 15px;
+  }
+  .faq-section {
+    padding: 4rem 1rem;
+  }
+  .faq-container {
+    padding: 1rem 2rem;
+  }
+  .faq-container p {
+    line-height: 2.5rem;
   }
 }
