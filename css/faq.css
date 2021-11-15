@@ -84,4 +84,13 @@
   .faq-container p {
     line-height: 2.5rem;
   }
+  .faq-title {
+    width: 90%;
+  }
+  .faq-title::before {
+    width: 0;
+  }
+  .faq-title::after {
+    width: 0;
+  }
 }

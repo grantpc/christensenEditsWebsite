@@ -116,7 +116,7 @@
 
 @media only screen and (max-width: 580px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
   .about-section {
     padding: 4rem 1rem;
@@ -151,5 +151,14 @@
   }
   #portrait-image img {
     max-height: 300px;
+  }
+  .about-title {
+    width: 90%;
+  }
+  .about-title::before {
+    width: 0;
+  }
+  .about-title::after {
+    width: 0;
   }
 }

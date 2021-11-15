@@ -44,3 +44,21 @@
     padding: 6rem 25rem;
   }
 }
+
+@media only screen and (max-width: 580px) {
+  html {
+    font-size: 15px;
+  }
+  .services-section {
+    padding: 4rem 1rem;
+  }
+  .services-title {
+    width: 90%;
+  }
+  .services-title::before {
+    width: 0;
+  }
+  .services-title::after {
+    width: 0;
+  }
+}
