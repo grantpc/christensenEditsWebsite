@@ -540,6 +540,7 @@ footer {
   }
   .image-block img {
     object-fit: cover;
+    object-position: 50% 40%;
     width: 100%;
   }
   .contact-form {
