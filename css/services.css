@@ -57,7 +57,7 @@
 .service h2 {
   color: var(--army-green);
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-color: #dbdbdb;
@@ -157,7 +157,13 @@
   }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 1400px) {
+  .services-section {
+    padding: 4rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   html {
     font-size: 15px;
   }

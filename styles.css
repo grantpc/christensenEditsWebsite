@@ -212,32 +212,34 @@ section {
   margin-top: 4rem;
 }
 .services-offered-section h2 {
+  display: inline-block;
   font-size: 1.8rem;
   color: var(--army-green);
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
   position: relative;
+  width: 40%;
 }
 .services-offered-section h2::before {
   content: '';
-  width: 30%;
+  width: 70%;
   background-color: var(--yellow);
   height: 3px;
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translate(0, -50%);
+  transform: translate(-110%, -50%);
 }
 .services-offered-section h2::after {
   content: '';
-  width: 30%;
+  width: 70%;
   background-color: var(--yellow);
   height: 3px;
   position: absolute;
   right: 0;
   top: 50%;
-  transform: translate(0, -50%);
+  transform: translate(110%, -50%);
 }
 
 .services {
@@ -540,6 +542,55 @@ footer {
 @media only screen and (max-height: 700px) {
   footer {
     height: 50vh;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .welcome-section {
+    padding: 4rem 2rem;
+  }
+  .services-offered-section {
+    padding: 4rem 2rem;
+  }
+  .testimonials-section {
+    padding: 4rem 2rem;
+  }
+  .contact-section {
+    padding: 4rem 2rem;
+  }
+  footer {
+    padding: 4rem 1rem;
+    height: 20vh;
+  }
+}
+
+/* IPAD AND TABLET SIZE */
+@media only screen and (min-width: 581px) and (max-width: 1024px) and (orientation: portrait) {
+  html {
+    font-size: 14px;
+  }
+  .desktop-nav-bar {
+    padding: 0 4rem;
+  }
+  .welcome-section {
+    padding: 3rem 2rem 3rem 1rem;
+  }
+  .services-offered-section {
+    padding: 4rem 1rem;
+  }
+  .service-card img {
+    max-height: 250px;
+  }
+  .testimonials-section {
+    padding: 4rem 1rem;
+  }
+  .contact-section {
+    padding: 4rem 1rem;
+  }
+  footer {
+    padding: 2rem 1rem;
+    justify-content: space-around;
   }
 }
 
@@ -552,6 +603,10 @@ footer {
   }
   .desktop-nav-bar {
     display: none;
+  }
+  .jumbotron-section {
+    padding: 2rem 1rem;
+    height: 85vh;
   }
   /* WELCOME SECTION */
   .welcome-section {
@@ -638,7 +693,7 @@ footer {
   }
   /* FOOTER */
   footer {
-    padding: 2rem 01rem;
+    padding: 2rem 1rem;
     height: 30vh;
     justify-content: center;
   }
