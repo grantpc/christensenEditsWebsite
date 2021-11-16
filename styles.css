@@ -39,6 +39,27 @@ section {
   padding: 6rem 10rem;
 }
 
+.learn-more {
+  display: inline-block;
+  background-color: var(--army-green);
+  color: #f5f5f5;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: all 250ms ease;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+.learn-more:hover {
+  color: var(--yellow);
+  background-color: var(--blue-gray);
+  cursor: pointer;
+}
+
 /* MOBILE NAV */
 .mobile-nav {
   display: none;
@@ -123,6 +144,12 @@ section {
 .welcome-section {
   padding: 6rem 10rem;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-wrapper {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -151,19 +178,18 @@ section {
 
 .welcome-text-box {
   min-width: 48%;
+  text-align: center;
 }
 .welcome-text-box h2 {
   font-size: 3rem;
   letter-spacing: 3px;
   color: var(--blue-gray);
-  text-align: center;
 }
 .welcome-text-box h3 {
   margin-top: 1.5rem;
   font-size: 1.5rem;
   letter-spacing: 3.5px;
   color: var(--army-green);
-  text-align: center;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -180,6 +206,10 @@ section {
 .services-offered-section {
   padding: 6rem 10rem;
   background-color: #f5f5f5;
+  text-align: center;
+}
+.services-offered-section .learn-more {
+  margin-top: 4rem;
 }
 .services-offered-section h2 {
   font-size: 1.8rem;
@@ -251,8 +281,11 @@ section {
 }
 
 /* TESTIMONIALS SECTION */
-.testimonials-section h2 {
+.testimonials-section {
   text-align: center;
+}
+
+.testimonials-section h2 {
   color: var(--blue-gray);
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -267,7 +300,6 @@ section {
 .testimonial-text {
   color: var(--army-green);
   font-size: 1.5rem;
-  text-align: center;
 }
 
 /* CONTACT FORM SECTION */
@@ -505,6 +537,12 @@ footer {
   }
 }
 
+@media only screen and (max-height: 700px) {
+  footer {
+    height: 50vh;
+  }
+}
+
 @media only screen and (max-width: 580px) {
   html {
     font-size: 15px;
@@ -541,6 +579,9 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 4rem 1rem;
+  }
+  .services-offered-section .learn-more {
+    margin-top: 1rem;
   }
   .services-offered-section h2 {
     width: 90%;

@@ -138,6 +138,7 @@
 }
 .investment {
   color: var(--blue-gray);
+  /* margin: 0 auto; */
 }
 .investment h4 {
   text-transform: uppercase;
@@ -178,10 +179,16 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1.5fr;
   }
+  .investment {
+    margin: 0 auto;
+  }
   .desktop {
     display: none;
   }
   #service2-mobile {
+    display: block;
+  }
+  #service2-mobile .services-card {
     display: grid;
     gap: unset;
     grid-template-columns: 1fr;
@@ -190,6 +197,9 @@
   #service2-mobile img {
     object-position: 50% 50%;
   }
+  #service3 {
+    grid-template-rows: 1fr 2fr;
+  }
   .service-image {
     width: auto;
     max-height: 450px;
@@ -197,6 +207,6 @@
   .service-image img {
     object-fit: cover;
     object-position: 50% 40%;
-    width: 100%;
+    /* width: 100%; */
   }
 }
