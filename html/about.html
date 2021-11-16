@@ -129,26 +129,38 @@
             alt="Claire posing for a portrait picture"
           />
         </div>
-        <form class="contact-form">
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/gpchristensen08@gmail.com"
+          method="POST"
+        >
           <label for="fullname">
             Full Name*
-            <input id="fullname" type="text" name="fullname" required />
+            <input id="fullname" type="text" name="Full Name" required />
           </label>
           <label for="website">
             Your Website
-            <input id="website" type="text" name="website" />
+            <input id="website" type="text" name="Website" />
           </label>
           <label for="email">
             Email Address*
-            <input id="email" type="text" name="email" required />
+            <input id="email" type="text" name="Email" required />
           </label>
           <label for="subject">
             Subject
-            <input id="subject" type="text" name="subject" required />
+            <input id="subject" type="text" name="Subject" required />
           </label>
-          <label for="fname">
+          <!-- Hidden fields -->
+          <input
+            type="hidden"
+            name="_next"
+            value="https://grantchristensen.me"
+          />
+          <input type="hidden" name="_subject" value="New inquiry!" />
+          <input type="hidden" name="_captcha" value="false" />
+          <label for="message">
             Message
-            <textarea rows="4" required></textarea>
+            <textarea rows="4" id="message" name="Message" required></textarea>
           </label>
           <button>Submit</button>
         </form>
