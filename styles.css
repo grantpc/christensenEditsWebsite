@@ -299,7 +299,7 @@ section {
 
 .slider {
   max-width: 100rem;
-  height: 40rem;
+  height: 35rem;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -309,7 +309,7 @@ section {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
 
   display: flex;
   align-items: center;
@@ -603,13 +603,6 @@ footer {
   }
 }
 
-@media only screen and (max-height: 700px) {
-  footer {
-    height: 50vh;
-    padding: 1rem;
-  }
-}
-
 @media only screen and (max-width: 1400px) {
   .welcome-section {
     padding: 4rem 2rem;
@@ -729,10 +722,10 @@ footer {
     width: 100%;
   }
   .slider-btn--left {
-    top: 90%;
+    top: 92%;
   }
   .slider-btn--right {
-    top: 90%;
+    top: 92%;
   }
   /* CONTACT SECTION */
   .contact-section {
@@ -787,9 +780,9 @@ footer {
     padding: 3rem 0.5rem;
   }
   .slider-btn--left {
-    top: 92%;
+    top: 93%;
   }
   .slider-btn--right {
-    top: 92%;
+    top: 93%;
   }
 }
