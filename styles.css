@@ -60,6 +60,10 @@ section {
   cursor: pointer;
 }
 
+.lazy-image {
+  /* filter: blur(20px); */
+}
+
 /* MOBILE NAV */
 .mobile-nav {
   display: none;
@@ -469,6 +473,12 @@ section {
 .contact-form input:focus {
   outline: 1px solid var(--orange-red);
   color: var(--blue-gray);
+}
+.contact-form input:active {
+  outline: none;
+}
+.contact-form textarea:active {
+  outline: none;
 }
 .contact-form textarea:focus {
   outline: 1px solid var(--orange-red);

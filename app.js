@@ -40,5 +40,4 @@ const slider = () => {
     e.key === 'ArrowLeft' && prevSlide();
   });
 };
-
 slider();
