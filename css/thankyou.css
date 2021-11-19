@@ -28,3 +28,16 @@
   line-height: 2.8rem;
   margin-top: 1rem;
 }
+
+@media only screen and (max-width: 650px) {
+  .thankyou-section {
+    flex-direction: column;
+  }
+  .image-block {
+    width: 75%;
+  }
+  .thankyou-box {
+    margin-top: 2rem;
+    width: 90%;
+  }
+}
