@@ -43,7 +43,6 @@
 .process-wrapper {
   display: flex;
   justify-content: space-between;
-  /* max-width: 1350px; */
   margin-top: 6rem;
 }
 .process-block {
@@ -156,13 +155,6 @@
 @media only screen and (max-width: 1400px) {
   .process-section {
     padding: 4rem;
-  }
-}
-
-/* IPAD AND TABLET SIZE */
-@media only screen and (min-width: 581px) and (max-width: 1024px) and (orientation: portrait) {
-  footer .social-links h3 {
-    font-size: 1.7rem;
   }
 }
 

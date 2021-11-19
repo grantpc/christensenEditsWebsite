@@ -54,7 +54,8 @@
 }
 #portrait-image img {
   object-fit: cover;
-  max-height: 400px;
+  max-height: 300px;
+  display: block;
 }
 .about-image {
   display: flex;
@@ -117,9 +118,6 @@
 @media only screen and (max-width: 1400px) {
   .about-section {
     padding: 4rem;
-  }
-  footer {
-    height: 20vh;
   }
 }
 

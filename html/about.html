@@ -7,7 +7,7 @@
     <link
       rel="shortcut icon"
       type="image/jpg"
-      href="/images/Logo-cropped-min.png"
+      href="/images/Logo-cropped.png"
     />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/css/about.css" />
@@ -17,6 +17,8 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <script defer src="/app.js"></script>
+    <script defer src="/lazy.js"></script>
   </head>
   <body>
     <header>
@@ -28,7 +30,7 @@
         </ul>
         <div class="logo">
           <a href="/index.html"
-            ><img src="/images/Logo-cropped-min.png" alt="Logo"
+            ><img src="/images/Logo-cropped.png" alt="Logo"
           /></a>
         </div>
         <ul class="nav-links">
@@ -40,7 +42,7 @@
       <nav class="mobile-nav">
         <div class="logo">
           <a href="/index.html"
-            ><img src="/images/Logo-cropped-min.png" alt="Logo"
+            ><img src="/images/Logo-cropped.png" alt="Logo"
           /></a>
         </div>
         <ul class="nav-links">
@@ -69,11 +71,10 @@
           <div class="about-textbox">
             <h2>My family!</h2>
             <p>
-              I am married to the most supportive man, Grant Christensen, and we
-              have a one year old boy named Donovan. We enjoy watching the Utah
-              Jazz, playing fetch with our dog Zoe, and cuddling up on the
-              couch. Our favorite Netflix series is Schitt's Creek but we miss
-              The Office.
+              I am married to the most supportive man, Grant, and we have a one
+              year old boy named Donovan. We enjoy watching the Utah Jazz,
+              playing fetch with our dog Zoe, and cuddling up on the couch. Our
+              favorite Netflix series is Schitt's Creek but we miss The Office.
             </p>
           </div>
         </div>
@@ -89,13 +90,13 @@
           <div class="about-textbox">
             <h2>Why editing?</h2>
             <p>
-              My reasoning to be in this profession is most likely the opposite
+              The reason I'm in this profession is most likely the opposite
               reason you’re here. I need less time to myself. As a stay at home
               mother, I found myself searching for more in life. I knew I needed
               a challenge, other than how well I can cut food into small pieces
-              or count to 10 in a silly voice. :) I fulfilled this void with
-              editing and put all my time and energy in becoming the best editor
-              I possibly can for my clients.
+              or count to 10 in a silly voice. :) I filled this void with
+              editing and put all of my time and energy in becoming the best
+              editor I possibly can for my clients.
             </p>
           </div>
         </div>
@@ -103,13 +104,13 @@
           <div class="about-textbox">
             <h2>Why editing?</h2>
             <p>
-              My reasoning to be in this profession is most likely the opposite
+              The reason I'm in this profession is most likely the opposite
               reason you’re here. I need less time to myself. As a stay at home
               mother, I found myself searching for more in life. I knew I needed
               a challenge, other than how well I can cut food into small pieces
-              or count to 10 in a silly voice. :) I fulfilled this void with
-              editing and put all my time and energy in becoming the best editor
-              I possibly can for my clients.
+              or count to 10 in a silly voice. :) I filled this void with
+              editing and put all of my time and energy in becoming the best
+              editor I possibly can for my clients.
             </p>
           </div>
           <div class="about-image">
@@ -157,7 +158,7 @@
         </div>
         <form
           class="contact-form"
-          action="https://formsubmit.co/christensenedits@gmail.com"
+          action="https://formsubmit.co/a521f90a954caeffa7673e160aa4594e"
           method="POST"
         >
           <label for="fullname">
@@ -173,7 +174,7 @@
             <input id="email" type="text" name="Email" required />
           </label>
           <label for="subject">
-            Subject
+            Subject*
             <input id="subject" type="text" name="Subject" required />
           </label>
           <!-- Hidden fields -->
@@ -185,7 +186,7 @@
           <input type="hidden" name="_subject" value="New inquiry!" />
           <input type="hidden" name="_captcha" value="false" />
           <label for="message">
-            Message
+            Message*
             <textarea rows="4" id="message" name="Message" required></textarea>
           </label>
           <button>Submit</button>
@@ -211,7 +212,5 @@
         ></a>
       </div>
     </footer>
-    <script src="/app.js"></script>
-    <script src="/lazy.js"></script>
   </body>
 </html>

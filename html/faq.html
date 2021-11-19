@@ -7,7 +7,7 @@
     <link
       rel="shortcut icon"
       type="image/jpg"
-      href="/images/Logo-cropped-min.png"
+      href="/images/Logo-cropped.png"
     />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/css/faq.css" />
@@ -17,6 +17,8 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <script defer src="/app.js"></script>
+    <script defer src="/lazy.js"></script>
   </head>
   <body>
     <header>
@@ -28,7 +30,7 @@
         </ul>
         <div class="logo">
           <a href="/index.html"
-            ><img src="/images/Logo-cropped-min.png" alt=""
+            ><img src="/images/Logo-cropped.png" alt=""
           /></a>
         </div>
         <ul class="nav-links">
@@ -40,7 +42,7 @@
       <nav class="mobile-nav">
         <div class="logo">
           <a href="/index.html"
-            ><img src="/images/Logo-cropped-min.png" alt=""
+            ><img src="/images/Logo-cropped.png" alt=""
           /></a>
         </div>
         <ul class="nav-links">
@@ -59,7 +61,7 @@
       <div class="faq-container">
         <h2>How long does it take?</h2>
         <p>
-          I can return an edited catalog back in 3-5 business days. If you need
+          I can return an edited catalog in 3-5 business days. If you need
           anything expedited, we can talk about the process for this! After all,
           my main goal is to help you so lets chat about it!
         </p>
@@ -67,7 +69,7 @@
       <div class="faq-container">
         <h2>What is the process to send and receive images?</h2>
         <p>
-          I use google drive to send and receive smart previews through
+          I use Google Drive to send and receive smart previews through
           Lightroom Classic. We will go over this is detail on the initial
           consultation call along with a PDF step-by-step form I will send to
           you. I want to make sure this is a very easy process for you to adapt!
@@ -122,7 +124,7 @@
         </div>
         <form
           class="contact-form"
-          action="https://formsubmit.co/christensenedits@gmail.com"
+          action="https://formsubmit.co/a521f90a954caeffa7673e160aa4594e"
           method="POST"
         >
           <label for="fullname">
@@ -138,7 +140,7 @@
             <input id="email" type="text" name="Email" required />
           </label>
           <label for="subject">
-            Subject
+            Subject*
             <input id="subject" type="text" name="Subject" required />
           </label>
           <!-- Hidden fields -->
@@ -150,7 +152,7 @@
           <input type="hidden" name="_subject" value="New inquiry!" />
           <input type="hidden" name="_captcha" value="false" />
           <label for="message">
-            Message
+            Message*
             <textarea rows="4" id="message" name="Message" required></textarea>
           </label>
           <button>Submit</button>
@@ -176,6 +178,5 @@
         ></a>
       </div>
     </footer>
-    <script src="app.js"></script>
   </body>
 </html>
