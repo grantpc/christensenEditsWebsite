@@ -60,10 +60,6 @@ section {
   cursor: pointer;
 }
 
-.lazy-image {
-  /* filter: blur(20px); */
-}
-
 /* MOBILE NAV */
 .mobile-nav {
   display: none;
