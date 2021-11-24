@@ -151,19 +151,19 @@ section {
 .welcome-wrapper {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   align-items: center;
 }
 
 .avatar-picture {
   /* display: inline-block; */
-  max-width: 43%;
+  max-width: 40%;
 }
 .avatar-picture img {
   width: 100%;
   /* max-height: 1170px; */
   border-radius: 50px;
   transform: scale(0.8);
-  /* object-fit: cover; */
 }
 
 .avatar-picture-mobile {
