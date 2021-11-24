@@ -102,6 +102,15 @@
   .about-container {
     margin-top: 9rem;
   }
+  #portrait-image img {
+    max-height: 450px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  #portrait-image img {
+    max-height: 400px;
+  }
 }
 
 @media only screen and (max-width: 1390px) {
@@ -158,7 +167,13 @@
     width: 100%;
   }
   #portrait-image img {
-    max-height: 300px;
+    max-height: 280px;
+  }
+}
+
+@media only screen and (min-width: 581px) and (max-width: 1024px) {
+  #portrait-image img {
+    max-height: 350px;
   }
 }
 
@@ -177,5 +192,8 @@
   }
   .about-title::after {
     width: 0;
+  }
+  #portrait-image img {
+    max-height: 215px;
   }
 }

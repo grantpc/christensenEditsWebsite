@@ -527,7 +527,7 @@ button:hover {
 
 /* FOOTER SECTION */
 footer {
-  height: 40vh;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -36,6 +36,9 @@
   .image-block {
     width: 75%;
   }
+  .image-block img {
+    width: 100%;
+  }
   .thankyou-box {
     margin-top: 2rem;
     width: 90%;
