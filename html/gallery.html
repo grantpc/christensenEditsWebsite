@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Me</title>
+    <title>Gallery</title>
     <link
       rel="shortcut icon"
       type="image/jpg"
       href="/images/Logo-cropped.png"
     />
     <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/gallery.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <script defer src="/app.js"></script>
+    <!-- <script defer src="/app.js"></script> -->
     <script defer src="/lazy.js"></script>
+    <script defer src="/gallery.js"></script>
   </head>
   <body>
     <header>
@@ -55,6 +56,37 @@
         </ul>
       </nav>
     </header>
+    <!-- GALLERY SECTION -->
+    <div class="slider-container">
+      <div class="slider-left">
+        <div style="background-color: aqua">
+          <h1>Look at this wow</h1>
+          <p>I could do this to your pictures</p>
+        </div>
+      </div>
+      <div class="slider-right">
+        <div
+          class="slide"
+          style="background-image: url(/images/color-and-fine-min.jpg)"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url(/images/fine-tuning-min.jpg)"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url(/images/services-fine-and-color-min.jpg)"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url(/images/services-fine-tuning-min.jpg)"
+        ></div>
+      </div>
+      <div class="slider-buttons">
+        <button class="down">&darr;</button>
+        <button class="up">&uarr;</button>
+      </div>
+    </div>
     <!-- CONTACT SECTION -->
     <section class="contact-section">
       <h2>Interested in learning more?</h2>
